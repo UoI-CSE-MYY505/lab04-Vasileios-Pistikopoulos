@@ -11,7 +11,7 @@ marianna: .string "Marianna"
 .align 4  # make sure the string arrays are aligned to words (easier to see in ripes memory view)
 
 # These are string arrays
-# The labels below are replaced by the respective addresses
+# The labels below are replaced by the respective addresses!!
 arraySorted:    .word maria, marianna, marios, markos
 
 arrayNotSorted: .word marianna, markos, maria
